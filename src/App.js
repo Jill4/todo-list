@@ -2,9 +2,8 @@ import styled from "styled-components";
 import { useState, useEffect } from "react";
 import "./index.css";
 import React from 'react';
-
-import { List } from "../List/List";
-import { Input } from "../Input/Input";
+import { List } from "./components/List";
+import { Input } from "./components/Input";
 
 const Container = styled.div`
 display: flex;
