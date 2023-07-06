@@ -1,6 +1,6 @@
 import React from "react";
-import { Checkbox } from "../Checkbox/Checkbox";
-import { Button } from "../Button/Button";
+import { Checkbox } from "./CheckedBox";
+import { Button } from "./Button";
 
 export const List = ({ list, onChangeBox, handleDel }) => (
   <ul>
